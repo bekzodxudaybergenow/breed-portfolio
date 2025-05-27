@@ -32,10 +32,21 @@ body {
 }
 .subtitle {
     font-size: 14px;
-    font-weight: 600;
+    font-weight: 500;
     color: var(--main-gray);
     letter-spacing: 1px;
     text-transform: uppercase;
+    position: relative;
+}
+.subtitle::after {
+    content: '';
+    width: 85px;
+    height: 2px;
+    position: absolute;
+    top: 50%;
+    left: 110%;
+    filter: blur(4px);
+    background-color: var(--main-pink);
 }
 .desc {
     font-size: 14px;
@@ -110,7 +121,7 @@ body {
 }
 .hero-content--subtitle {
     display: inline-block;
-    margin-bottom: 15px;
+    margin-bottom: 8px;
 }
 .hero-content--title {
     margin-bottom: 15px;
@@ -165,21 +176,33 @@ body {
 .about-row {
     display: flex;
     align-items: center;
-    column-gap: 50px;
     padding-bottom: 150px;
+    max-width: 1110px;
 }
 .about-image {
-    max-width: 600px;
+    flex: 1;
+    transform: translateX(-120px);
 }
-.about-content {
-    max-width: 600px;
+.about-image img{
     width: 100%;
 }
+.about-content {
+    max-width: 550px;
+    padding-right: 50px;
+    flex: 1;
+}
 .about-content--subtitle {
+    display: inline-block;
+    margin-bottom: 10px;
 }
 .about-content--title {
+    line-height: 52px;
+    font-size: 42px;
+    margin-bottom: 30px;
 }
 .about-content--desc {
+    max-width: 450px;
+    margin-bottom: 50px;
 }
 .btn {
 }

@@ -284,4 +284,49 @@ body {
     bottom: 0;
 }
 
+/* CLIENT SECTION */
+.client-row {
+    padding-bottom: 150px;
+}
+.client-content {
+    max-width: 400px;
+    margin-bottom: 80px;
+}
+.client-content--subtitle {
+    display: inline-block;
+    margin-bottom: 10px;
+}
+.client-content--title {
+    font-size: 42px;
+    line-height: 52px;
+}
+.client-list--item {
+    display: flex;
+    justify-content: space-between;
+}
+.client-item--img {
+    display: inline-block;
+    max-width: 540px;
+    transform: translateX(-100px);
+}
+.client-item--content {
+    max-width: 540px;
+    padding-top: 100px;
+}
+.client-item--title {
+    font-size: 20px;
+    line-height: 24px;
+    margin-bottom: 2px;
+}
+.client-item--subtitle {
+    display: inline-block;
+    font-size: 12px;
+    color: var(--main-gray);
+    margin-bottom: 16px;
+}
+.client-item--desc {
+    margin-bottom: 16px;
+}
+.client-item--rating i {
+    color: #ffd804;
 }

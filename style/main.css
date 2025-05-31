@@ -109,9 +109,15 @@ body {
 
 
 /* HERO SECTION */
+#hero {
+    background-image: url('../images/header/hero-banner.png');
+    background-repeat: no-repeat;
+    background-position: top right;
+    background-size: 100% 100%;
+}
 .hero-row {
     display: flex;
-    column-gap: 50px;
+    column-gap: 80px;
     padding: 100px 0 200px;
 }
 .hero-content {

@@ -529,3 +529,23 @@ body {
 .blog-item--link:active {
     color: var(--main-lightpink);
 }
+
+/* PARTNER SECTION */
+#partner {
+    padding-bottom: 9.375rem;
+}
+.partner-images {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.partner-images img {
+    cursor: pointer;
+    transition: opacity .3s ease;
+}
+.partner-images img:hover {
+    opacity: .8;
+}
+.partner-images img:active {
+    opacity: 1;
+}

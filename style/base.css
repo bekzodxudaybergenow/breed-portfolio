@@ -69,3 +69,9 @@ body {
 .btn:hover {
     background: linear-gradient(to right, var(--main-pink), var(--main-blue));
 }
+
+@media screen and (max-width: 991px) {
+    .container {
+        max-width: 750px;
+    }
+}

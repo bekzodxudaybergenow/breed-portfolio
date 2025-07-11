@@ -686,7 +686,7 @@
 }
 
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 375px) {
     .hero-content--title {
         font-size: 3rem;
     }
